@@ -8,7 +8,7 @@ const josefinSans = Josefin_Sans({ subsets: ["latin"], weight: "700" })
 const About = () => {
   return (
     <div className="mb-12 sm:mt-9">
-      <div className="p-4 pb-0 mx-auto max-w-5xl">
+      <div className="p-4 pb-0 mx-auto max-w-6xl">
         <div>
           <div className="text-3xl md:text-4xl xl:text-5xl font-extrabold uppercase tracking-[-2px]">
             <div className={josefinSans.className}>
@@ -37,7 +37,7 @@ const About = () => {
           </Link>
         </div>
       </div>
-      <div className="p-4 -mt-4 max-w-5xl mx-auto">
+      <div className="p-4 -mt-4 xl:-mt-20 max-w-6xl mx-auto">
         <img src="./assets/aboutbg.png" className="dark:invert" alt="" />
       </div>
     </div>
