@@ -7,7 +7,7 @@ import { AiFillGithub } from "react-icons/ai"
 
 const Projects = () => {
   return (
-    <div className="p-4 max-w-sm mx-auto">
+    <div className="p-4 max-w-5xl mx-auto">
       <div className="text-2xl uppercase tracking-[-2px]">
         <h1 className={josefinSans.className}>Recent Projects</h1>
       </div>

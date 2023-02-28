@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown"
 const Header = () => {
   return (
     <header>
-      <div className="max-w-sm p-3 h-[70px] mx-auto flex items-center justify-between">
+      <div className="max-w-5xl p-3 h-[70px] mx-auto flex items-center justify-between">
         <div className="flex items-center justify-between gap-2">
           <Link href={`/`}>
             <img
@@ -15,7 +15,6 @@ const Header = () => {
           </Link>
           <h4 className="text-lg font-bold">cs.dev</h4>
         </div>
-        <Dropdown />
       </div>
     </header>
   )
