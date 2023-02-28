@@ -7,10 +7,10 @@ const josefinSans = Josefin_Sans({ subsets: ["latin"], weight: "700" })
 
 const About = () => {
   return (
-    <div className="mb-12">
+    <div className="mb-12 sm:mt-9">
       <div className="p-4 pb-0 mx-auto max-w-5xl">
         <div>
-          <div className="text-4xl font-extrabold uppercase tracking-[-2px]">
+          <div className="text-3xl md:text-4xl xl:text-5xl font-extrabold uppercase tracking-[-2px]">
             <div className={josefinSans.className}>
               meet <br /> <span className="relative -top-2">cliff sanchez</span>
             </div>
