@@ -16,7 +16,7 @@ const About = () => {
             </div>
           </div>
           <p className="mt-2 text-neutral-800 dark:text-neutral-300 max-w-sm">
-            A talented web developer with over 7 years of experience in
+            A talented web developer from Los Angeles with over 7 years of experience in
             JavaScript and 5 years of experience in React. <br /> <br />
           </p>
         </div>
@@ -37,7 +37,7 @@ const About = () => {
           </Link>
         </div>
       </div>
-      <div className="p-4 -mt-16 max-w-5xl mx-auto">
+      <div className="p-4 -mt-4 max-w-5xl mx-auto">
         <img src="./assets/aboutbg.png" className="dark:invert" alt="" />
       </div>
     </div>

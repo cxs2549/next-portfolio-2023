@@ -11,21 +11,33 @@ const Projects = () => {
       <div className="text-2xl uppercase tracking-[-2px]">
         <h1 className={josefinSans.className}>Recent Projects</h1>
       </div>
-      <ul className="mt-4 ">
-        <li className="mb-12 rounded-lg overflow-hidden">
-          <Link href={`/`} className="rounded-lg overflow-hidden">
-            <img src="./assets/projects/nextmeal.png" className="rounded-lg mb-1" alt="" />
-          </Link>
-          <div className="flex items-center justify-between bg-neutral-100 dark:bg-neutral-800 rounded-lg">
-            <div className="p-4 flex gap-2">
+      <ul className="mt-4 md:flex flex-wrap gap-1">
+        <li className="mb-12 rounded-lg overflow-hidden flex">
+          <div>
+            <Link href={`/`} className="rounded-lg overflow-hidden">
               <img
-                src="./assets/technologies/react.png"
-                className="w-8 object-contain"
+                src="./assets/projects/nextmeal.png"
+                className="rounded-lg mb-1 md:w-40"
                 alt=""
               />
-
-              <img src="./assets/technologies/tw.png" className="w-8" alt="" />
+            </Link>
+            <div className="flex items-center justify-between bg-neutral-100 dark:bg-neutral-800 rounded-lg md:w-40">
+              <div className="p-4 flex gap-2">
+                <img
+                  src="./assets/technologies/react.png"
+                  className="w-8 object-contain"
+                  alt=""
+                />
+                <img
+                  src="./assets/technologies/tw.png"
+                  className="w-8"
+                  alt=""
+                />
+              </div>
             </div>
+          </div>
+          <div>
+
           </div>
         </li>
         <li className="mb-12">
@@ -33,9 +45,13 @@ const Projects = () => {
             href={`https://bigbeat-next-sanity.vercel.app/`}
             target="_blank"
           >
-            <img src="./assets/projects/bigbeat.png" className="rounded-lg mb-1" alt="" />
+            <img
+              src="./assets/projects/bigbeat.png"
+              className="rounded-lg mb-1 md:w-72"
+              alt=""
+            />
           </Link>
-          <div className="flex items-center justify-between bg-neutral-100 dark:bg-neutral-800 rounded-lg">
+          <div className="flex items-center justify-between bg-neutral-100 dark:bg-neutral-800 rounded-lg md:w-72">
             <div className="p-4 flex gap-2">
               <img
                 src="./assets/technologies/react.png"
@@ -67,9 +83,13 @@ const Projects = () => {
             href={`https://betterman-next-sanity.vercel.app/`}
             target="_blank"
           >
-            <img src="./assets/projects/betterman.png" className="rounded-lg mb-1" alt="" />
+            <img
+              src="./assets/projects/betterman.png"
+              className="rounded-lg mb-1 md:w-72"
+              alt=""
+            />
           </Link>
-          <div className="flex items-center justify-between bg-neutral-100 dark:bg-neutral-800 rounded-lg">
+          <div className="flex items-center justify-between bg-neutral-100 dark:bg-neutral-800 rounded-lg md:w-72">
             <div className="p-4 flex gap-2">
               <img
                 src="./assets/technologies/react.png"
