@@ -26,7 +26,7 @@ const Tech = () => {
            <img src="./assets/technologies/react.png" alt="" className="w-[3.5rem]" /> 
         </li>
         <li>
-           <img src="./assets/technologies/next.png" alt="" className="w-[4rem]" /> 
+           <img src="./assets/technologies/next.png" alt="" className="w-[4rem] dark:invert" /> 
         </li>
         <li>
            <img src="./assets/technologies/tw.png" alt="" className="w-[4rem]" /> 
