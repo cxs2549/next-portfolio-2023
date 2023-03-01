@@ -1,9 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
-import Dropdown from "./Dropdown"
 const Header = () => {
   return (
-    <header>
+    <header className="dark:bg-black">
       <div className="max-w-6xl p-3 h-[70px] mx-auto flex items-center justify-between">
         <div className="flex items-center justify-between gap-2">
           <Link href={`/`}>
