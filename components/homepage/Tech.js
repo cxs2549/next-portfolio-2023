@@ -5,11 +5,11 @@ const josefinSans = Josefin_Sans({ subsets: ["latin"], weight: "700" })
 
 const Tech = () => {
   return (
-    <div className="p-4 pt-12 max-w-6xl mx-auto">
+    <div className="p-4 pt-8 max-w-6xl mx-auto">
       <div className="uppercase text-2xl">
         <h3 className={josefinSans.className}>Technologies</h3>
       </div>
-      <ul className="mt-8 flex flex-wrap gap-4 items-center justify-center">
+      <ul className="mt-3 flex flex-wrap gap-4 items-center justify-center">
         <li>
            <img src="./assets/technologies/html5.png" alt="" className="w-[4.2rem]" /> 
         </li>

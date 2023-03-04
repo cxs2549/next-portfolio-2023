@@ -7,11 +7,11 @@ import { AiFillGithub } from "react-icons/ai"
 
 const Projects = () => {
   return (
-    <div className="p-4 pt-12 max-w-6xl mx-auto">
+    <div className="p-4 pt-6 max-w-6xl mx-auto">
       <div className="text-2xl uppercase">
         <h1 className={josefinSans.className}>Recent Projects</h1>
       </div>
-      <ul className="mt-12 md:flex flex-wrap gap-1">
+      <ul className="mt-8 md:flex flex-wrap gap-1">
         <li className="mb-12 rounded-lg overflow-hidden flex">
           <div>
             <Link href={`/`} className="rounded-lg overflow-hidden">
