@@ -8,7 +8,7 @@ const josefinSans = Josefin_Sans({ subsets: ["latin"], weight: "700" })
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-b from-white to-neutral-300 dark:from-black">
+    <div className="">
       <div className="pb-4 sm:pt-9 relative max-w-6xl mx-auto xl:pt-12 sm:flex  ">
         <div className="p-4 pb-0 mx-auto max-w-6xl relative flex-1">
           <div>
